@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "SUfLluWDt/QBMQVQEVFG75SHB5JJ20kNkwQgYXlGps2oYc2zeNo28wRdTqEgbWWPX9B31o4qq+ArdOGxD++mGQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Matteo.grotti\\source\\repos\\VerificaGit\\VerificaGit\\VerificaGit.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Matteo.grotti\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.17\\microsoft.netcore.app.host.win-x64.3.1.17.nupkg.sha512"
+  ],
+  "logs": []
+}
