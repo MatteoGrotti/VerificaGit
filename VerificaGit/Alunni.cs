@@ -70,5 +70,11 @@ namespace VerificaGit
                 _cicloStudi = value;
             }
         }
+
+        public override string ToString()
+        {
+            string alunno = Nome + Cognome + Eta + CicloStudi;
+            return alunno;
+        }
     }
 }
