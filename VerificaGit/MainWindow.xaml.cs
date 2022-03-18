@@ -23,6 +23,6 @@ namespace VerificaGit
         public MainWindow()
         {
             InitializeComponent();
-        }
+        } //provaper il clone verifica
     }
 }
