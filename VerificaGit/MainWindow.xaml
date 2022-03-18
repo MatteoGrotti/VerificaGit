@@ -7,6 +7,22 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="101*"/>
+            <RowDefinition Height="116*"/>
+        </Grid.RowDefinitions>
+        <TextBox x:Name="thb_nome" HorizontalAlignment="Left" Margin="27,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="thb_cognome" HorizontalAlignment="Left" Margin="27,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="thb_eta" HorizontalAlignment="Left" Margin="27,156,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btn_creaAlunno" Content="CreaAlunno" HorizontalAlignment="Left" Margin="27,0,0,0" VerticalAlignment="Top" Grid.Row="1"/>
+        <TextBox x:Name="thb_cercaCognome" HorizontalAlignment="Left" Margin="411,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="thb_nome_Copy1" HorizontalAlignment="Left" Margin="570,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btn_cercaAlunno" Content="Cerca Alunno" HorizontalAlignment="Left" Margin="531,137,0,0" VerticalAlignment="Top"/>
+        <Label Content="Nome" HorizontalAlignment="Left" Margin="208,82,0,0" VerticalAlignment="Top"/>
+        <Label Content="Cognome" HorizontalAlignment="Left" Margin="198,113,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="E" Content="Età" HorizontalAlignment="Left" Margin="198,148,0,0" VerticalAlignment="Top"/>
+        <Label Content="Cerca per cognome" HorizontalAlignment="Left" Margin="414,33,0,0" VerticalAlignment="Top"/>
+        <Label Content="Età" HorizontalAlignment="Left" Margin="609,33,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
